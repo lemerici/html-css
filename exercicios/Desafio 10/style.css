@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: android;
+    src: url(font/idroid.otf);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+body {
+    margin: 0;
+    background-color: #c5ebd6;
+    text-align: justify;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    padding: 10px;
+}
+
+header {
+    background-color: green;
+    background-image: linear-gradient(180deg, #a9e0a9, #45802c);
+    padding: 30px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.titulo-android {
+    font-family: android;
+    color: #3d7e21;
+}
+
+h2 {
+    background-image: linear-gradient(90deg, #a9e0a9a4, #a9e0a900);
+}
+
+#video {
+    width: 800px;
+}
+
+footer {
+    text-align: center;
+    background-color: #3d7e21;
+}
